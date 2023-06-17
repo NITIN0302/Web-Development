@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 .container{
     width:40vw;
     height:40vh;
@@ -10,4 +15,71 @@
 .form
 {
     background-color:#00ff00;
+}
+
+.inline
+{
+    background-color: aquamarine;
+    display:inline;
+}
+
+.block
+{
+    background-color: blanchedalmond;
+    display:block;
+}
+
+.inline-block
+{
+    background-color: rgb(247, 145, 13);
+    display:inline-block;
+}
+
+.visible{
+    visibility:hidden;
+}
+
+div{
+    display:inline-block;
+    height:100px;
+    width:100px;
+    margin-left: 10px;
+}
+
+.box1
+{
+    position:static;
+    background-color: aqua;;
+    
+}
+
+.box2
+{
+    position:relative;
+    top:10px;
+    left:10px;
+    background-color: rgb(13, 14, 14);
+}
+
+.box3
+{
+    position:absolute;
+    top:10px;
+    right:10px;
+    background-color: rgb(231, 42, 102);
+}
+
+.box4
+{
+    position:fixed;
+    bottom:10px;
+    left:10px;
+    background-color: rgb(236, 120, 25);
+}
+
+.box5
+{
+    position:sticky;
+    top:20px;
+    background-color: blue;
 }
