@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container
+{
+    border:2px solid black;
+    display:flex;
+    height:40vh;
+    width:60vw;
+    background-color: bisque;
+    justify-content:flex-start;
+}
+
+.div1
+{
+    border:2px solid rgb(16, 16, 16);
+    height:100px;
+    width:100px;
+    background-color: rgb(150, 220, 31);
+}
+
+.div2
+{
+    border:2px solid black;
+    height:100px;
+    width:100px;
+    background-color: rgb(206, 73, 73);
+}
+
+.div3
+{
+    border:2px solid black;
+    height:100px;
+    width:100px;
+    background-color: rgb(83, 190, 33);
+}
+
+.div4
+{
+    border:2px solid black;
+    height:100px;
+    width:100px;
+    background-color: rgb(33, 54, 190);
+}
